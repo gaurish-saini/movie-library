@@ -1,0 +1,247 @@
+body,
+html {
+  height: 100% !important;
+  font-family: "Abel", sans-serif !important;
+}
+.book-section {
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.add {
+  z-index: 1001 !important;
+  padding-bottom: 12px;
+}
+.month-label {
+  padding-top: 3px;
+  padding-left: 4px;
+}
+.login-view {
+  padding-top: 60px !important;
+}
+.register-view {
+  padding-top: 30px !important;
+}
+.card-panel {
+  padding: 0 !important;
+}
+.dropdown-content li > span {
+  color: #3f51b5 !important;
+}
+.social {
+  padding-right: 10px;
+}
+.footer-position {
+  display: flex;
+  min-height: 7vh;
+  flex-direction: column;
+  flex: 1 0 auto;
+  position: fixed !important;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.card .card-image .card-title {
+  padding: 20px 0 10px 20px !important;
+  font-size: 50px !important;
+  line-height: 50px !important;
+  font-weight: 100 !important;
+  font-style: normal !important;
+}
+#nav {
+  box-shadow: 0px 0px 20px #c5cae9 !important;
+}
+.card .card-image img {
+  display: block !important;
+  border-radius: 2px 2px 2px 2px !important;
+  position: relative !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+}
+.modalSpan {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.searchBar {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.book-form-label {
+  margin-top: 0 !important;
+  margin-left: 44px !important;
+}
+.label-margin {
+  margin-left: 44px !important;
+}
+.modal-adduser {
+  height: 90% !important;
+  width: 100% !important;
+}
+.form-adduser {
+  max-width: 100% !important;
+}
+.modal-detail {
+  width: 80% !important;
+}
+.modal-del {
+  max-width: 30% !important;
+}
+.modal-email {
+  max-width: 550px !important;
+}
+.modal-heading {
+  margin-top: 0 !important;
+}
+.modal-button {
+  margin-right: 15px !important;
+}
+.input-field {
+  /* margin-top: 10px !important; */
+  margin-bottom: 0 !important;
+}
+.label-btn {
+  background: white;
+}
+#login-box {
+  padding: 70px;
+}
+.tab-color {
+  background-color: #f5f5f5 !important;
+}
+.image {
+  display: block;
+  height: 300px;
+  position: relative;
+}
+.icon-margin {
+  margin-right: 30px !important;
+}
+.card-title {
+  /* white-space: nowrap; */
+  font-style: oblique;
+  font-size: 17px !important;
+  font-weight: 400 !important;
+}
+.content-height {
+  height: 170px !important;
+}
+.action-height {
+  height: 70px !important;
+}
+.bookImage {
+  height: 350px !important;
+}
+.author {
+  padding: 0px;
+}
+.brand {
+  background: #d32f2f !important;
+}
+
+.portal-label {
+  color: #ee6e73;
+}
+#toast-container {
+  min-width: 10%;
+  right: 50% !important;
+  transform: translateX(50%) translateY(50%);
+}
+.login-border {
+  border-radius: 10px;
+}
+.label-link {
+  color: #9e9e9e;
+}
+table.highlight > tbody > tr:hover {
+  background-color: rgba(63, 81, 181, 0.1) !important;
+}
+.vert-color {
+  color: #3f51b5 !important;
+}
+.brand-text {
+  color: #d32f2f !important;
+}
+.red-lighten {
+  color: #e57373 !important;
+}
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  /* padding: 20px; */
+}
+.dropdown-icon {
+  background-color: white;
+  color: #3f51b5 !important;
+}
+
+.template {
+  max-width: 50px;
+  padding: 5px;
+}
+.book {
+  width: 100px;
+  margin: 40px auto -30px;
+  display: block;
+  position: relative;
+  top: -30px;
+}
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+.border {
+  border-style: groove;
+  padding: 15px;
+}
+.menu {
+  padding-top: 4px;
+}
+.fab-options {
+  list-style-type: none;
+  margin: 0;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  opacity: 0;
+}
+.fab:hover + .fab-options,
+.fab-options:hover {
+  opacity: 1;
+}
+.fab-options li {
+  display: flex;
+  justify-content: flex-end;
+  padding: 3px;
+}
+
+.FAB2 {
+  position: relative !important;
+  display: inline-block;
+  right: 24px !important;
+  right: 17px !important;
+  bottom: 0 !important;
+  padding: 0 0 0 25px !important;
+}
+
+.FAB2-li {
+  margin: 0 15px 0 0 !important;
+}

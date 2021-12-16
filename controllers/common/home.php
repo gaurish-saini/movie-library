@@ -3,9 +3,9 @@
 if ( session_status() == PHP_SESSION_NONE ) {
 		session_start();
 }
-if ( isset( $_SESSION['type'] ) ) {
-	header( 'location:/login' );
-}
+// if ( isset( $_SESSION ) ) {
+// 	header( 'location:/login' );
+// }
 	$msg1 = $msg2 = $msg3 = $emailid = $password = $password1 = $rname = null;
 if ( isset( $_SESSION['error1'] ) ) {
 	$msg1 = $_SESSION['error1'];

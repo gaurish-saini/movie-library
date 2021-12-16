@@ -27,6 +27,7 @@ if ( isset( $_POST['rname'] ) && isset( $_POST['remailid'] ) && isset( $_POST['r
 	if ( isset( $name ) && isset( $email ) && isset( $pass ) ) {
 		if ( $user->freshUser( $email ) ) {
 			$user->registerUser( $name, $email, $pass );
+			header( 'location:/login' );
 		} else {
 			$user->flashError( array( null, 'User Already Exists' ), '/index?register=1' );
 		}

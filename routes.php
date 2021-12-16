@@ -12,7 +12,7 @@ $router->define(
 		'verify'                   => 'controllers/auth/verifyRegistration.php',
 		'registration'             => 'controllers/users/register.controller.php',
 		'splashmsg'                => 'view/common/splashmsg.php',
-		'addbook'                  => 'controllers/books/addbook.php',
+		'addplaylist'              => 'controllers/playlists/addplaylist.php',
 		'readbook'                 => 'controllers/books/readBook.php',
 	)
 );

@@ -13,6 +13,5 @@ $router->define(
 		'registration'             => 'controllers/users/register.controller.php',
 		'splashmsg'                => 'view/common/splashmsg.php',
 		'addplaylist'              => 'controllers/playlists/addplaylist.php',
-		'readbook'                 => 'controllers/books/readBook.php',
 	)
 );

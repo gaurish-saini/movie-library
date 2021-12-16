@@ -26,11 +26,11 @@
 					<input class="file-path validate grey-text" type="text" value="playlist Cover (Max Size-1Mb)*">
 				</div>
 			</div>
-			<?php if ( $msg4 ) : ?>
+			<?php if ( $msg2 ) : ?>
 				<small class="red-text left label-margin" id='errorplaylist_cover'><?php echo $msg4; ?></small></br>
 			<?php endif ?></br>
 			<div class="grey lighten-4 center border">
-				<button class="btn indigo waves-effect waves-light" type="submit" name="action">Publish playlist
+				<button class="btn indigo waves-effect waves-light" type="submit" name="action">Publish Playlist
 				<i class="material-icons right">publish</i>
 			</div>
 		</form></br>

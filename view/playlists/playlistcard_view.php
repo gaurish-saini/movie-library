@@ -3,8 +3,7 @@
 	$('.modal').modal();
 });
 </script>
-<?php if ( $_SESSION ) {
-	;} ?>
+<?php if ( $_SESSION ) { ?>
 <div class="container grey lighten-4">
 	<div class="section book-section">
 		<div class="row">
@@ -93,4 +92,4 @@
 		</ul>
 	<?php endif; ?>
 </div>
-<?php endif; ?>
+<?php } ?>

@@ -6,13 +6,16 @@ $user = new Users();
 // $book = new Books();
 
 if ( isset( $_SESSION['name'] ) ) {
-	session_destroy();
+	$name  = $_SESSION['name'];
+	$row   = $user->fetchUserAuth( $name );
+	$uid   = $row['uid'];
+	$name  = $row['user_name'];
+	$email = $row['email_id'];
 	unset( $_SESSION['name'] );
-	var_dump('hello');
+	// var_dump('hello');
 	require __dir__ . '/' . '../../controllers/common/setUserSession.php';
 	header( 'location:/' );
 } elseif ( isset( $_POST['emailid'] ) && $_POST['emailid'] != '' ) {
-	var_dump('here');
 		$name             = mysqli_escape_string( $conn, $_POST['emailid'] );
 		$_SESSION['name'] = $name;
 		if ( isset( $_POST['password'] ) && $_POST['password'] != '' ) {

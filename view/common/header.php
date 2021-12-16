@@ -1,14 +1,25 @@
 <header> 
 <nav class="white z-depth-0 " id="nav">
-<div class="container">
-	<a href="/" class="brand-logo brand-text" >Movie Library</a>
-	<ul id="nav-mobile" class="right hide-on-small-and-down"></ul>
-</div>
+	<div class="container">
+		<a href="/" class="brand-logo brand-text" >Movie Library</a>
+		<ul id="nav-mobile" class="right hide-on-small-and-down"></ul>
+	</div>
 	<?php if ( ( Request::uri() == 'login' ) || ( Request::uri() == 'addbook' ) ) { ?>
 	<div class="container">
 		<a href="#" ><i  data-target="slide-out" class="material-icons sidenav-trigger label-btn brand-text z-depth-0 right menu">menu</i></a>
 	</div>
-		<?php if ( ( ! isset( $_GET['listbooks'] ) ) && ! ( isset( $_GET['view'] ) && $_GET['view'] == 'users' ) && ( Request::uri() !== 'addbook' ) && ( Request::uri() !== 'addadmin' ) ) { ?>
+	<ul id="slide-out" class="sidenav">
+		<li>
+			<div class="user-view">
+			<span class="indigo-text name">Hello</span>
+			<span class="indigo-text email"><?php echo $_SESSION['username']; ?></span>
+			<span class="indigo-text name">Dashboard</span>
+			</div>
+		</li>
+		<li><div class="divider brand-text"></div></li></br>
+		<li><a href="/logout">Log Out</a></li>
+	</ul>
+		<?php if ( ( ! isset( $_GET['listbooks'] ) ) || ! ( isset( $_GET['view'] ) || $_GET['view'] == 'users' ) || ( Request::uri() !== 'addbook' )) { ?>
 	<div class="nav-wrapper right">
 		<form class="searchBar" accept="/" method="GET">
 			<div class="input-field white">

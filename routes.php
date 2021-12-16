@@ -16,4 +16,3 @@ $router->define(
 		'readbook'                 => 'controllers/books/readBook.php',
 	)
 );
-

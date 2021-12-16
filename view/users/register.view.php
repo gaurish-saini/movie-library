@@ -45,9 +45,9 @@
 				<div><label class="portal-label">Already Registered ? <a href="/" class="indigo-text">Log In</a></label></br></div>
 			</form>
 		</div>
-		<div class=" col s6 md6 white">
+		<!-- <div class=" col s6 md6 white">
 			<img src="resources\uploads\illustraton.png" alt="illustration">
 			<h4 class="indigo-text">Once you learn to read, you will be forever free</h4>
-		</div>
+		</div> -->
 	</div>
 </div>
